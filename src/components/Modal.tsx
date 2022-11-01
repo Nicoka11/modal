@@ -64,6 +64,7 @@ export const ModalBackground = styled("div", {
   transition: "all 0.2s ease",
   pointerEvents: "none",
   opacity: "0",
+  zIndex: "200",
   variants: {
     show: {
       true: {
