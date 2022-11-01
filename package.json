@@ -81,5 +81,8 @@
     "url": "https://github.com/Nicoka11/simple-modal/issues"
   },
   "homepage": "https://github.com/Nicoka11/simple-modal#readme",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@stitches/react": "^1.2.8"
+  }
 }

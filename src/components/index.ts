@@ -1,4 +1,4 @@
-import { Helloworld, HelloWorldProps } from "./Modal";
+import { ModalProps, Modal } from "./Modal";
 
-export { Helloworld };
-export type { HelloWorldProps };
+export { Modal };
+export type { ModalProps };
