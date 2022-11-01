@@ -1,5 +1,5 @@
 {
-  "name": "simple-modal",
+  "name": "@nicoka/modal",
   "private": false,
   "version": "1.1.0",
   "type": "module",
@@ -28,13 +28,13 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/simple-modal.es.js",
-      "require": "./dist/simple-modal.umd.js"
+      "import": "./dist/modal.es.js",
+      "require": "./dist/modal.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },
-  "main": "./dist/simple-modal.umd.js",
-  "module": "./dist/simple-modal.es.js",
+  "main": "./dist/modal.umd.js",
+  "module": "./dist/modal.es.js",
   "types": "./dist/index.d.ts",
   "devDependencies": {
     "@types/node": "^18.7.6",
@@ -68,19 +68,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nicoka11/simple-modal"
+    "url": "https://github.com/Nicoka11/modal"
   },
   "keywords": [
     "react",
     "modal",
     "headless"
   ],
-  "description": "A simple react modal library, headless with logic ready to use so you can focus on the visual part",
+  "description": "A simple react modal library, with logic ready to use",
   "author": "Nicolas Ka",
   "bugs": {
-    "url": "https://github.com/Nicoka11/simple-modal/issues"
+    "url": "https://github.com/Nicoka11/modal/issues"
   },
-  "homepage": "https://github.com/Nicoka11/simple-modal#readme",
+  "homepage": "https://github.com/Nicoka11/modal#readme",
   "license": "MIT",
   "dependencies": {
     "@stitches/react": "^1.2.8"
