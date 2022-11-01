@@ -3,8 +3,8 @@ import { MouseEvent } from "react";
 import Close from "./Close";
 export interface ModalProps {
   isOpen: boolean;
-  onClickOutside?: (e: MouseEvent<HTMLDivElement>) => void;
-  onClick: () => (e: MouseEvent<HTMLDivElement>) => void;
+  onClickOutside?: (e?: MouseEvent<HTMLDivElement>) => void;
+  onClick: () => (e?: MouseEvent<HTMLDivElement>) => void;
   message: string;
 }
 
