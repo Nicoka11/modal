@@ -25,7 +25,7 @@ export default defineConfig((configEnv) => ({
       entry: resolve('src', 'components/index.ts'),
       name: 'ReactViteLibrary',
       formats: ['es', 'umd'],
-      fileName: (format) => `simple-modal.${format}.js`,
+      fileName: (format) => `modal.${format}.js`,
     },
     rollupOptions: {
       external: [...Object.keys(packageJson.peerDependencies)],
